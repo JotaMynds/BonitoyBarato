@@ -1,0 +1,201 @@
+body
+{
+    background-color: black;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    color: white; 
+    overflow-x: hidden;
+    
+}
+header
+{
+    background-color: rgb(149, 218, 149);
+    font-style: normal;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+#logotipo, #logotipo2
+{
+    width: 50px;
+    height: auto;
+}   
+.botones 
+{
+    background-color:  rgb(149, 218, 149);
+    color: #000000;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around; 
+}
+.botones a 
+{
+    text-transform: uppercase; 
+    color: inherit; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    padding: 5px; 
+}
+.botones a:hover
+{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.cuadroinicio{
+    align-content: center;
+    align-items:center;
+    height: auto;
+    width: 100%;
+}
+.Registro
+{
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 24px;
+    border-radius: 16px;
+    border: solid 5px  rgb(149, 218, 149);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px 20px rgba(156, 235, 156, 0.726);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+.Registro-titulo
+{
+margin-bottom: 16px;
+}
+.entrada
+{
+display: flex;
+width: 100%;
+position: relative;
+margin-top: 20px;
+}
+.entrada input
+{
+    width: 100%;
+    padding:10px 16px 10px 38px;
+    border-radius: 99px;
+    border:solid 3px transparent;
+    background: rgb(255, 255, 255, 0.1);
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-weight: 500;
+    transition: 0.25s;
+}
+.entrada input:focus
+{
+border: solid 3px rgb(255, 255, 255, 0.25);
+}
+.entrada input::placeholder
+{
+color: rgb(255, 255, 255, 0.75);
+}
+.entrada input::-ms-reveal
+{
+    filter: invert(100%);
+}
+.entrada i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+    color:rgb(255,255,255,0.75);
+    font-size: 18px;
+    transition: 0.25s;
+}
+.entrada input:focus + i
+{
+color: white;
+}
+.Olvidar-recordar
+{
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+.Olvidar-recordar h5
+{
+    font-weight: normal;
+}
+.recuerdame
+{
+    display:flex
+}
+.contraseña-olvidada:hover
+{
+    text-decoration: underline;
+}
+.boton-Registro
+{
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px 0;
+    background: rgb(149, 218, 149);
+    border: none;
+    border-radius: 99px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:pointer;
+    outline: transparent 3px solid;
+    transition: 0.1s;
+}
+.boton-registro:focus
+{
+    outline: #32CDD58A 3px solid;
+}
+.Login{
+    font-weight: normal;
+    margin-top: 12px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1; 
+}
+
+footer {
+    background-color: #222;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 218, 149);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0; 
+    height: auto;
+    text-align: center; 
+    color: #fff;  
+    bottom: 0; 
+    width: 100%; 
+}

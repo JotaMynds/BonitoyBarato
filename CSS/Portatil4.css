@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+header{
+    background-color: rgb(149, 218, 149);
+    font-style: normal;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+#logotipo, #logotipo2{
+    width: 50px;
+    height: auto;
+}   
+.botones {
+    background-color:  rgb(149, 218, 149);
+    color: #000000;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around; 
+}
+.botones a {
+    text-transform: uppercase; 
+    color: inherit; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    padding: 5px; 
+}
+.botones a:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top:25px ;
+    margin-bottom: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px 20px rgba(156, 235, 156, 0.726);
+}
+
+.titulo-del-producto {
+    text-align: center;
+    color: #333;
+}
+
+.imagenes-del-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-principal {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.imagen-principal:hover 
+{
+    content: url(../IMAGES/portatil4.1.jpg);
+}
+
+.detalles-del-producto {
+    margin-top: 20px;
+}
+
+.detalles-del-producto h2 {
+    color: #333;
+}
+
+.detalles-del-producto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detalles-del-producto li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.precio {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin-top: 10px;
+}
+
+.comprar {
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px 0;
+    background: rgb(149, 218, 149);
+    border: none;
+    border-radius: 99px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:pointer;
+    outline: transparent 3px solid;
+    transition: 0.1s;
+}
+
+.comprar:hover {
+    outline: #32CDD58A 3px solid;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    flex: 1; 
+}
+footer 
+{
+    background-color: #222;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 218, 149);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0; 
+    height: auto;
+    text-align: center; 
+    color: #fff;  
+    bottom: 0; 
+    width: 100%; 
+}

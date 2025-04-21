@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(149, 218, 149);
+    font-style: normal;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+
+#logotipo, #logotipo2 {
+    width: 50px;
+    height: auto;
+}
+
+.botones {
+    background-color: rgb(149, 218, 149);
+    color: #000000;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones a {
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.botones a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.categorias {
+    color: white;
+    font-size: larger;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.categoria {
+    margin: 5%;
+}
+
+.carousel {
+    margin: 5%;
+    display: flex;
+    height: 200px;
+}
+
+.seccion-categorias {
+    margin-top: 1.5%;
+}
+
+.seccion-categorias h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.tituloarticulos {
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.linea {
+    color: #1b1b1b;
+    background-color: rgb(149, 218, 149);
+    border: none;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login {
+    background-color: white;
+    color: black;
+}
+
+.register {
+    background-color: rgb(149, 218, 149);
+}
+.main-container {
+    display: flex; /* Alinea las columnas en una fila */
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left-section{
+    flex: 0.45; /* Cada columna ocupa el 45% del espacio */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.right-section {
+    flex: 0.45; /* Cada columna ocupa el 45% del espacio */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-section img{
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+.right-section img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.highlighted-article {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px 20px rgba(156, 235, 156, 0.726);
+}
+
+.highlighted-article h2 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.highlighted-article h3 {
+    color: #666;
+    font-size: 1rem;
+}
+
+.highlighted-article p {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #222;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 218, 149);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    margin-top: 15px;
+}
