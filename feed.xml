@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Sitio Web Personal</title>
+    <link>https://misitioweb.com</link>
+    <description>Canal RSS con las últimas actualizaciones de mi sitio web personal.</description>
+    <item>
+      <title>Nuevo artículo: Introducción al Desarrollo Web</title>
+      <link>https://misitioweb.com/articulos/introduccion-desarrollo-web</link>
+      <description>Un artículo donde exploramos los fundamentos del desarrollo web.</description>
+    </item>
+  </channel>
+</rss>
