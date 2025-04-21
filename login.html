@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONITO Y BARATO</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    
+</head>
+<body>
+    
+<header>
+    <img id="logotipo" src="IMAGES/Logo.png" alt="logotipo" style="width: 170px; height: auto;">
+    <h1>BONITO Y BARATO</h1>
+    <img id="logotipo2" src="IMAGES/Logo.png" alt="logotipo" style="width: 170px; height: auto;">
+</header>
+
+<div class="botonesgen">
+    <nav class="botones">
+        <a id="index" href="index.html">Inicio</a>
+        <a id="about" href="about.html">Sobre Nosotros</a>
+        <a id="gallery" href="gallery.html">Artículos</a>
+        <a id="services" href="services.html">Servicios</a>
+        <a id= "contact" href="contact.html">Contactarnos</a>
+    </nav>
+</div>
+<div class="cuadroinicio">
+    <div class="container">
+        <form class="Login" action="indexiniciado.html" method="post">
+            <h1 class="login-titulo">Login</h1>
+
+            <section class="entrada">
+                <input type="text"  name="nombre de usuario" placeholder="Username" required>
+            </section>
+
+            <section class="entrada">
+                <input type="password" name="contraseña" placeholder="password" required>
+            </section>
+
+            <section class="Olvidar-recordar">
+                <div class="recuerdame">
+                    <input type="checkbox" name="recuerdame" id="recuerdame">
+                    <label for="recuerdame"><h5>&nbsp Guardar datos</h5></label> <!-- "&nbsp" es para dar un espacio en blanco y separar la checkbox de el titulo "Guardar datos"-->
+                </div>
+
+                <a href="contraseñaolvidada.html" class="contraseña-olvidada">
+                    <h5>¿Has olvidado la contraseña?</h5>
+                </a>
+            </section>
+
+            <input  type="submit" class="boton-login" value="Login"> 
+            <h5 class="Registro">
+                ¿No tienes cuenta?
+                <a href="register.html"><b>Registrarse</b></a>
+            </h5>
+        </form>
+    </div>
+</div>
+
+    <footer class="footer">
+        <p></p>
+        <p>2024 Nuestra Empresa. Todos los derechos reservados.</p>
+        <p>Correo electrónico: bonitoybarato@miweb.com</p>
+        <p></p>
+    </footer>
+</body>
+</html>
