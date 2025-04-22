@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" >
     <channel>
         <title>Bonito y Barato</title>
         <link>https://profound-basbousa-3520bf.netlify.app/</link>
         <description>El sitio oficial para encontrar artículos tecnológicos y servicios a precios accesibles.</description>
         <language>es</language>
+        <pubDate>mon, 21 Apr 2025 12:00:00 GMT</pubDate>
 
         <!--PÁGINA PRINCIPAL-->
-        <item>
+        <item> 
             <title>Bienvenidos a Bonito y Barato</title>
             <link>https://profound-basbousa-3520bf.netlify.app/</link>
             <description>Descubre nuestros artículos tecnológicos y ofertas especiales.</description>
             <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/</guid>
-        </item>
+        </item> 
 
         <!-- PRODUCTOS -->
         <item>
