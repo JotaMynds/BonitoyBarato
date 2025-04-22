@@ -10,6 +10,7 @@
             <title>Bienvenidos a Bonito y Barato</title>
             <link>https://profound-basbousa-3520bf.netlify.app/</link>
             <description>Descubre nuestros artículos tecnológicos y ofertas especiales.</description>
+            <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/</guid>
         </item>
 
         <!-- Página de galería -->
@@ -17,6 +18,7 @@
             <title>Explora Nuestra Galería de Productos</title>
             <link>https://profound-basbousa-3520bf.netlify.app/gallery</link>
             <description>Consulta nuestros productos destacados como ordenadores, portátiles, monitores y más.</description>
+            <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/gallery</guid>
         </item>
 
         <!-- Página de servicios -->
@@ -24,6 +26,7 @@
             <title>Servicios Ofrecidos</title>
             <link>https://profound-basbousa-3520bf.netlify.app/services</link>
             <description>Conoce los servicios que ofrecemos, desde asesoría hasta atención personalizada.</description>
+            <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/services</guid>
         </item>
 
         <!-- Página de sobre nosotros -->
@@ -31,6 +34,7 @@
             <title>Conoce más sobre nosotros</title>
             <link>https://profound-basbousa-3520bf.netlify.app/about</link>
             <description>Descubre quiénes somos y nuestra misión como empresa.</description>
+            <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/about</guid>
         </item>
 
         <!-- Página de contacto -->
@@ -38,6 +42,7 @@
             <title>Contacta con Nosotros</title>
             <link>https://profound-basbousa-3520bf.netlify.app/contact</link>
             <description>Si tienes preguntas o necesitas ayuda, no dudes en ponerte en contacto con nosotros.</description>
+            <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/contact</guid>
         </item>
 
     </channel>
