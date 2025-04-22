@@ -1,13 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-  <channel>
-    <title>Mi Sitio Web Personal</title>
-    <link>https://misitioweb.com</link>
-    <description>Canal RSS con las últimas actualizaciones de mi sitio web personal.</description>
-    <item>
-      <title>Nuevo artículo: Introducción al Desarrollo Web</title>
-      <link>https://misitioweb.com/articulos/introduccion-desarrollo-web</link>
-      <description>Un artículo donde exploramos los fundamentos del desarrollo web.</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Bonito y Barato</title>
+        <link>https://profound-basbousa-3520bf.netlify.app/</link>
+        <description>El sitio oficial para encontrar artículos tecnológicos y servicios a precios accesibles.</description>
+
+        <!-- Página de inicio -->
+        <item>
+            <title>Bienvenidos a Bonito y Barato</title>
+            <link>https://profound-basbousa-3520bf.netlify.app/</link>
+            <description>Descubre nuestros artículos tecnológicos y ofertas especiales.</description>
+        </item>
+
+        <!-- Página de galería -->
+        <item>
+            <title>Explora Nuestra Galería de Productos</title>
+            <link>https://profound-basbousa-3520bf.netlify.app/gallery</link>
+            <description>Consulta nuestros productos destacados como ordenadores, portátiles, monitores y más.</description>
+        </item>
+
+        <!-- Página de servicios -->
+        <item>
+            <title>Servicios Ofrecidos</title>
+            <link>https://profound-basbousa-3520bf.netlify.app/services</link>
+            <description>Conoce los servicios que ofrecemos, desde asesoría hasta atención personalizada.</description>
+        </item>
+
+        <!-- Página de sobre nosotros -->
+        <item>
+            <title>Conoce más sobre nosotros</title>
+            <link>https://profound-basbousa-3520bf.netlify.app/about</link>
+            <description>Descubre quiénes somos y nuestra misión como empresa.</description>
+        </item>
+
+        <!-- Página de contacto -->
+        <item>
+            <title>Contacta con Nosotros</title>
+            <link>https://profound-basbousa-3520bf.netlify.app/contact</link>
+            <description>Si tienes preguntas o necesitas ayuda, no dudes en ponerte en contacto con nosotros.</description>
+        </item>
+
+    </channel>
 </rss>
