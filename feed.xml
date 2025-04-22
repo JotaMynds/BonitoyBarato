@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Bonito y Barato</title>
         <link>https://profound-basbousa-3520bf.netlify.app/</link>
@@ -7,7 +7,7 @@
         <language>es</language>
         
         <!-- Añadido atom:link -->
-        <atom:link href="https://profound-basbousa-3520bf.netlify.app/rss" rel="self" type="application/rss"/>
+<atom:link href="https://profound-basbousa-3520bf.netlify.app/rss" rel="self" type="application/rss"/>
 
         <!-- Página de inicio -->
         <item>
