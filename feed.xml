@@ -7,7 +7,7 @@
         <language>es</language>
         
         <!-- Añadido atom:link -->
-        <atom:link href="https://profound-basbousa-3520bf.netlify.app/rss" rel="self" type="application/rss"/>
+        <atom:link href="https://profound-basbousa-3520bf.netlify.app/rss" rel="application/rss" type="application/rss"/>
 
         <!-- Página de inicio -->
         <item>
