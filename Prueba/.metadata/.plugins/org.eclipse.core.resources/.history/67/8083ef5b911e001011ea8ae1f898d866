@@ -1,0 +1,99 @@
+
+package EJEMPLOS;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.FlowLayout;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseMotionAdapter;
+import java.awt.event.MouseEvent;
+
+public class Prueba extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Prueba frame = new Prueba();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Prueba() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 584, 483);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		JLabel lblNewLabel = new JLabel("Es Juan o Jan?");
+		lblNewLabel.setBounds(479, 80, 287, 31);
+		contentPane.add(lblNewLabel);
+		
+		JButton BtnJuan = new JButton("Juan");
+		
+		BtnJuan.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				lblNewLabel.setText(BtnJuan.getText());
+				
+			}
+		});
+		
+		BtnJuan.setBounds(469, 11, 89, 23);
+		contentPane.add(BtnJuan);
+		
+		JButton BtnJan = new JButton("Jan");
+		
+		BtnJan.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				lblNewLabel.setText(BtnJan.getText());
+			}
+		});
+		
+		BtnJan.setBounds(469, 45, 89, 23);
+		contentPane.add(BtnJan);
+		
+		textField = new JTextField();
+		textField.setBounds(198, 73, 119, 45);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JButton btnCopy = new JButton("New button");
+		btnCopy.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				btnCopy.setText(textField.getText());
+			}
+		});
+		btnCopy.setBounds(212, 185, 89, 23);
+		contentPane.add(btnCopy);
+		
+		
+		
+		
+	}
+}
