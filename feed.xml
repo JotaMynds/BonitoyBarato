@@ -6,7 +6,7 @@
         <description>El sitio oficial para encontrar artículos tecnológicos y servicios a precios accesibles.</description>
         <language>es</language>
 
-        <!-- Página de inicio -->
+        <!--PÁGINA PRINCIPAL-->
         <item>
             <title>Bienvenidos a Bonito y Barato</title>
             <link>https://profound-basbousa-3520bf.netlify.app/</link>
@@ -14,7 +14,7 @@
             <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/</guid>
         </item>
 
-        <!-- Página de galería -->
+        <!-- PRODUCTOS -->
         <item>
             <title>Explora Nuestra Galería de Productos</title>
             <link>https://profound-basbousa-3520bf.netlify.app/gallery</link>
@@ -22,7 +22,7 @@
             <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/gallery</guid>
         </item>
 
-        <!-- Página de servicios -->
+        <!--SERVICIOS -->
         <item>
             <title>Servicios Ofrecidos</title>
             <link>https://profound-basbousa-3520bf.netlify.app/services</link>
@@ -30,7 +30,7 @@
             <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/services</guid>
         </item>
 
-        <!-- Página de sobre nosotros -->
+        <!-- INFORMACIÓN DE LA EMPRESA-->
         <item>
             <title>Conoce más sobre nosotros</title>
             <link>https://profound-basbousa-3520bf.netlify.app/about</link>
@@ -38,7 +38,7 @@
             <guid isPermaLink="true">https://profound-basbousa-3520bf.netlify.app/about</guid>
         </item>
 
-        <!-- Página de contacto -->
+        <!--CONTACTO -->
         <item>
             <title>Contacta con Nosotros</title>
             <link>https://profound-basbousa-3520bf.netlify.app/contact</link>
