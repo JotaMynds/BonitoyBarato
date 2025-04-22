@@ -4,6 +4,9 @@
         <title>Bonito y Barato</title>
         <link>https://profound-basbousa-3520bf.netlify.app/</link>
         <description>El sitio oficial para encontrar artículos tecnológicos y servicios a precios accesibles.</description>
+        
+        <!-- Añadido atom:link -->
+        <atom:link href="https://profound-basbousa-3520bf.netlify.app/rss" rel="self" type="application/rss+xml"/>
 
         <!-- Página de inicio -->
         <item>
